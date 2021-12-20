@@ -15,7 +15,7 @@ const Sistem = () => {
     }
 
     return (
-      <div>
+      <div className='container'>
           <table className="table table-light table-hover mt-2">
               <thead>
                   <tr>
