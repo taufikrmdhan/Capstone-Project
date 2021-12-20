@@ -10,7 +10,7 @@ const Sistem = () => {
     }, []);
 
     const getDht = async () => {
-        const response = await axios.get('http://localhost:5000/dht11');
+        const response = await axios.get(process.env.API_URL+'/dht11');
         setDht(response.data);
     }
 

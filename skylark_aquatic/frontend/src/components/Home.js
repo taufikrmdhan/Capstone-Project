@@ -11,7 +11,7 @@ const Home = () => {
     }, []);
 
     const getProduct = async () => {
-        const response = await axios.get('http://localhost:5000/products');
+        const response = await axios.get(process.env.API_URL+'/products');
         setProduct(response.data);
     }
 

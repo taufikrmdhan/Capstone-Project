@@ -10,12 +10,12 @@ const ProductList = () => {
     }, []);
 
     const getProduct = async () => {
-        const response = await axios.get('http://localhost:5000/products');
+        const response = await axios.get(process.env.API_URL+'/products');
         setProduct(response.data);
     }
 
     const deleteProduct = async (id) => {
-        await axios.delete(`http://localhost:5000/products/${id}`);
+        await axios.delete(process.env.API_URL+`/products/${id}`);
         getProduct();
     }
 

@@ -12,7 +12,7 @@ const EditProduct = () => {
 
     const updateProduct = async (e) => {
         e.preventDefault();
-        await axios.patch(`http://localhost:5000/products/${id}`, {
+        await axios.patch(process.env.API_URL+`/products/${id}`, {
             title: title,
             foto: foto,
             deskripsi: deskripsi
@@ -27,7 +27,7 @@ const EditProduct = () => {
 
 
     const getProductById = async () => {
-        const response = await axios.get(`http://localhost:5000/products/${id}`);
+        const response = await axios.get(process.env.API_URL+`/products/${id}`);
         setTitle(response.data.title);
         setFoto(response.data.foto);
         setDeskripsi(response.data.deskripsi);

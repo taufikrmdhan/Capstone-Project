@@ -13,7 +13,7 @@ const AddProduct = () => {
     const saveProduct = async (e) => {
         e.preventDefault();
         console.log(foto)
-        await axios.post('http://localhost:5000/products',{
+        await axios.post(process.env.API_URL+'/products',{
             title : title,
             foto : foto,
             deskripsi : deskripsi
