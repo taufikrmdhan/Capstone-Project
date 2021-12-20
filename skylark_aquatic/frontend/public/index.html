@@ -2,9 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script>
-      const API_URL = "%API_URL%";
-    </script>
     <link rel="icon" href="https://i.ibb.co/RgXmqMg/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -43,13 +40,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      $('#foto').change(function(e){
-          let url = URL.createObjectURL(e.target.files[0])
-          toDataURL(url, function(dataUrl) {
-              console.log('RESULT:', dataUrl)
-              //dataUrl tu base64nya , nanti ambil aja
-          })
-      })
+      // $('#foto').change(function(e){
+      //     let url = URL.createObjectURL(e.target.files[0])
+      //     toDataURL(url, function(dataUrl) {
+      //         console.log('RESULT:', dataUrl)
+      //         //dataUrl tu base64nya , nanti ambil aja
+      //     })
+      // })
 
       function toDataURL(url, callback) {
           var xhr = new XMLHttpRequest();
