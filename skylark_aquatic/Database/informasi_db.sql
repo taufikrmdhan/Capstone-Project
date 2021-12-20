@@ -32,8 +32,8 @@ CREATE TABLE `dht11` (
   `hum` float DEFAULT NULL,
   `tempe` float DEFAULT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp(),
-  `createdAt` date DEFAULT current_timestamp(),
-  `updatedAt` date DEFAULT current_timestamp()
+  `createdAt` datetime DEFAULT current_timestamp(),
+  `updatedAt` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
