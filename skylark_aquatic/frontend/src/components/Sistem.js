@@ -15,7 +15,7 @@ const Sistem = () => {
     }
 
     return (
-      <div className='container'>
+      <div className='table-responsive-md'>
           <table className="table table-light table-hover mt-2">
               <thead>
                   <tr>
