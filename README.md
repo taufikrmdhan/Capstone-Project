@@ -11,13 +11,13 @@ Import dan koneksi database:
 
 Masuk ke Text editor dan open folder project:
 1. Buka terminal dan masuk ke direktori backend.
-2. Jalankan beberapa perintah dibawah.
-    a. npm install
-    b. npm run start
+2. Jalankan beberapa perintah dibawah. <br/>
+    npm install <br/>
+    npm run start <br/>
 3. Jangan stop proses running backend.
 4. Tambahkan terminal baru dan masuk ke direktori frontend.
-5. Jalankan beberapa perintah di bawah.
-   npm install
-   npm run build
-   npm run start
+5. Jalankan beberapa perintah di bawah. <br/>
+   npm install <br/>
+   npm run build <br/>
+   npm run start <br/>
 6. Buka browser dan web sudah terbuka.
