@@ -21,3 +21,13 @@ Masuk ke Text editor dan open folder project:
    npm run build <br/>
    npm run start <br/>
 6. Buka browser dan web sudah terbuka.
+
+
+SETUP MIKROKONTROLER
+
+1. Pada arduino kita hubungkan dengan ethernet shield arduino
+2. masukan sensor DHT pada PCB dengan kabel jumper pada pin 4
+3. sambungkan kabel lan dari ethernet shield arduino ke dalam port lan di komputer lokal
+4. setup ip lokal di Control Panel\Network and Internet\Network Connections di adapter ethernet di internet protocol versi 4 buat ip lokal menjadi 192.168.1.2
+5. buka arduino IDE masukan potongan kode pada repository ini Mikrokontroler.
+6. lakukan upload file pada mikrokontroler agar mikrokontroler mampu mengirimkan data ke dalam komputer lokal 
